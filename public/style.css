@@ -4,6 +4,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.enjoy{
+  font-family:'Roboto';
+  font-size:5px;
+  pading:0px;
+  margin-left:-50px;
+  display: flex;
+    align-items: center;
+}
 
 body {
     display: flex;
@@ -14,8 +22,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
-    width: 800px;
-    max-width: 90%;
+    width:700px;
+    max-width: 80%;
     background: #fff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
@@ -37,7 +45,8 @@ section.chat__section {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    padding-top: 40px;
+    padding-top: 20px;
+  overflow-x:auto;
 }
 textarea {
     width: 100%;
@@ -58,6 +67,7 @@ textarea {
 .incoming {
     background: #8F8BE8;
     color: #fff;  
+
 }
 .outgoing {
     background: #e9eafd;
@@ -69,5 +79,8 @@ textarea {
     top: -20px;
     left: 0;
     color: #333;
-    font-size: 14px;
+font-size:15px
+}
+.section::-webkit-scrollbar {
+  display: none;
 }
